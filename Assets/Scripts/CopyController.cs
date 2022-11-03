@@ -22,8 +22,6 @@ public class CopyController : MonoBehaviour
         GameObject cloned_obj = Instantiate(linux);
         cloned_obj.SetActive(true);
         cloned_obj.transform.position = new Vector3(Random.Range(-10, 10), 10, 0);
-        iTween.MoveTo(gameObject, iTween.Hash("time", Random.Range(0.5f, 1), "oncomplete", "Copy", "oncompletetarget", gameObject));
-        // yield return new WaitUntil(() => cloned_obj.transform.position.y < -6);
-        // Destroy(cloned_obj);
+        iTween.MoveTo(gameObject, iTween.Hash("time", Random.Range(0.01f, 0.05f), "oncomplete", "Copy", "oncompletetarget", gameObject));
     }
 }
