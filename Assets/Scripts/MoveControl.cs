@@ -25,4 +25,9 @@ public class MoveControl : MonoBehaviour
     {
         transform.position += new Vector3(-0.5f, 0, 0);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy(collision.gameObject);   
+    }
 }
