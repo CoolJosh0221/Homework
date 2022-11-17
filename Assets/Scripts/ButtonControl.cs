@@ -16,7 +16,7 @@ public class ButtonControl : MonoBehaviour {
             if(Physics.Raycast(ray.origin, ray.direction, out hit, 4000))
             {
                 if(hit.collider.name == "right arrow"){
-                    player.G`etComponent<MoveControl>().move_right();
+                    player.GetComponent<MoveControl>().move_right();
                 }
                 if(hit.collider.name == "left arrow"){
                     player.GetComponent<MoveControl>().move_left();
