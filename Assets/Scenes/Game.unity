@@ -347,6 +347,7 @@ GameObject:
   - component: {fileID: 414986961}
   - component: {fileID: 414986960}
   - component: {fileID: 414986962}
+  - component: {fileID: 414986963}
   m_Layer: 0
   m_Name: linux
   m_TagString: Untagged
@@ -433,6 +434,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be91f4e4523402946b3532cd3650df81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &414986963
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414986959}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 12, y: 14.22, z: 786.99}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &444686880
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +562,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   g_camera: {fileID: 444686882}
   player: {fileID: 414986959}
-  movescript: {fileID: 0}
 --- !u!1 &668820629
 GameObject:
   m_ObjectHideFlags: 0
