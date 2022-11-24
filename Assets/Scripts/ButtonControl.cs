@@ -11,7 +11,7 @@ public class ButtonControl : MonoBehaviour {
     void Update(){
         mousepos = Input.mousePosition;
         cameramousepos = g_camera.ScreenToWorldPoint(new Vector3(mousepos.x,mousepos.y,-100));
-        if(Input.GetButtonUp("Fire1")){//....................................down
+        if(Input.GetButton("Fire1")){//....................................down
             ray = new Ray(cameramousepos, Vector3.forward);
             if(Physics.Raycast(ray.origin, ray.direction, out hit, 4000))
             {
