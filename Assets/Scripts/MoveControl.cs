@@ -20,13 +20,13 @@ public class MoveControl : MonoBehaviour
     public void move_right()
     {
         transform.position += new Vector3(0.1f, 0, 0);
-        transform.localScale = new Vector3(0.1f, 0.1f, 1f);
+        transform.localScale = new Vector3(-0.1f, 0.1f, 1f);
     }
 
     public void move_left()
     {
         transform.position += new Vector3(-0.1f, 0, 0);
-        transform.localScale = new Vector3(-0.1f, 0.1f, 1f);
+        transform.localScale = new Vector3(0.1f, 0.1f, 1f);
     }
 
     private void OnCollisionEnter(Collision collision)
