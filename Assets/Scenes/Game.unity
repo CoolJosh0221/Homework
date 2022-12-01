@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 12302954}
   - component: {fileID: 12302955}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: arch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -572,7 +572,7 @@ GameObject:
   m_Component:
   - component: {fileID: 668820630}
   - component: {fileID: 668820631}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ArchCraft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +656,7 @@ GameObject:
   m_Component:
   - component: {fileID: 750455866}
   - component: {fileID: 750455867}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EndeavourOS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +785,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1167425780}
   - component: {fileID: 1167425779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: i_hate_windows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,7 +871,7 @@ GameObject:
   - component: {fileID: 1426502216}
   - component: {fileID: 1426502218}
   - component: {fileID: 1426502217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FallingObjects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,6 +894,7 @@ Transform:
   - {fileID: 750455866}
   - {fileID: 668820630}
   - {fileID: 1167425780}
+  - {fileID: 1463436630}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -981,7 +982,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1463436628
 Animator:
   serializedVersion: 4
@@ -1062,12 +1063,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463436627}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -10, z: 50}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1426502215}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1535577258
 GameObject:
@@ -1174,7 +1175,7 @@ GameObject:
   - component: {fileID: 1614953523}
   - component: {fileID: 1614953522}
   - component: {fileID: 1614953521}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: left arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1467,7 +1468,7 @@ GameObject:
   - component: {fileID: 2093418403}
   - component: {fileID: 2093418402}
   - component: {fileID: 2093418401}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: right arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
