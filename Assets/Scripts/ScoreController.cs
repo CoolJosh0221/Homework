@@ -5,8 +5,8 @@ using TMPro;
 
 public class ScoreController : MonoBehaviour
 {
-    public TextMeshPro score;
-    public GameObject player;
+    public TextMeshPro score_text;
+    public int score;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,6 @@ public class ScoreController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score.text = player.GetComponent<MoveControl>().score.ToString();
+        score_text.text = score.ToString();
     }
 }
